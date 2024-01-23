@@ -1,0 +1,100 @@
+/* Main content styles */
+.main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.comment-field {
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+/* .image-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-section {
+  border: 1px solid;
+}
+
+.content-section h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.content-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
+
+/* Toggle icon styles */
+.toggle-icon {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+*/
+
+/*hgdfgdfgdfgdg*/
+.product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-slider {
+  width: 60%;
+}
+
+.image-slider img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.star-ratings {
+  color: gold;
+  font-size: 24px;
+}
+
+.color-options {
+  margin-top: 20px;
+}
+
+.color-thumbnails img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.slick-slider .slick-dots li button {
+  transform: scale(2);
+  transition: transform 0.2s;
+}
